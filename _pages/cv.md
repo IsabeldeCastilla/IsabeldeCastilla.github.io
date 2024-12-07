@@ -9,7 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-[Click Here to view my CV](files/CV.pdf)
+<iframe src="/files/CV.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+<p style="text-align: center; margin-top: 10px;">
+  <a href="/files/CV.pdf" target="_blank" class="btn btn-primary">Click Here For My CV</a>
+</p>
+
+<!-- [Click Here to view my CV](/files/CV.pdf) -->
+
+
 
 <!-- Education -->
 <!-- ======
