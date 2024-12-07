@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Projects"
-permalink: /Projects/
+title: "projects"
+permalink: /projects/
 author_profile: true
 redirect_from:
   - /resume
@@ -24,7 +24,7 @@ GTSAM optimization does not perform well for visual odometry, and that can only 
 ![fig. 16](images/Project_1/fig16.png)
 
 
-Project 2
+Reinforcement Learning Based UAV Collision Avoidance
 ======
 * 1
 * 2
