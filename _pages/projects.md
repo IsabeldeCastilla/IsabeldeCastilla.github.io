@@ -55,7 +55,7 @@ Abstract
 Introduction
 	To study the behavior of a mechanical system, we can model it as a series of signals and responses. For this project we analyzed a mechanical system of two masses undergoing torque while connected to a system of springs and dampers. To study this system we will create a free body diagram, from which we will extrapolate the differential equations which we can then use to analyze the system. We can then perform a laplace transform and obtain a transfer function to describe mathematically how the system reacts to a given input. This will allow us to solve for A1(s), B1(s), C1(s), and D1(s). We will then use our free body diagrams and our results from the previous section to create a signal flow diagram. From this diagram we can use Mason’s Gain formula to find A2(s), B2(s), C2(s).  
 
-Theory
+Theory：
 	The Mechanical System being studied is shown below, from this we can create our free body diagram. It is important to note for the purposes of our analysis that initial conditions are set to 0, and 1>2:
   ![p4f1](/images/Project_4/fig1.png)
 
