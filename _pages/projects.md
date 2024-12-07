@@ -60,10 +60,10 @@ Theory：
   ![p4f1](/images/Project_4/fig1.png)
 
 The functions A1(s), B1(s), C1(s), D1(s) can be solved by performing laplace transforms on the differential equations created from the free body diagram and rearranging into the form below:
-	A1(s), B1(s), C1(s), D1(s):
-  ![p4f2](/images/Project_4/fig2.png)
+A1(s), B1(s), C1(s), D1(s):
+![p4f2](/images/Project_4/fig2.png)
 
-	Additionally, the functions A2(s), B2(s), C2(s), can be solved for by using Mason's Gain formula on our signal flow diagrams, and rearranging into the form shown below:
+Additionally, the functions A2(s), B2(s), C2(s), can be solved for by using Mason's Gain formula on our signal flow diagrams, and rearranging into the form shown below:
 
 
 Mason’s Gain Formula:
@@ -71,14 +71,14 @@ Mason’s Gain Formula:
 
 
 
-	A2(s), B2(s), C2(s):
-  ![p4f4](/images/Project_4/fig4.png)
+A2(s), B2(s), C2(s):
+![p4f4](/images/Project_4/fig4.png)
 
 
 
-	The mathematics and results of this process can be seen in the next section.
+The mathematics and results of this process can be seen in the next section.
 
-Results
+Results:
 Free body 
 ![p4f5](/images/Project_4/fig5.png)
 
