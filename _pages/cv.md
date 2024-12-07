@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+![CV](/images/CV/CV.png)
 <!-- Education -->
 <!-- ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)

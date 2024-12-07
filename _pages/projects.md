@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Carnegie Mellon University, Visual and Tactile SLAM (Group Project)
+Project1: Visual and Tactile SLAM 
 ======
 Clarification: There are contents from our project final paper, by Hung-Jui Huang, Anoop Bhat, Jiarui Chang, Xinming Han.
 
@@ -26,7 +26,9 @@ GTSAM optimization does not perform well for visual odometry, and that can only 
 ![p1f16](/images/Project_1/fig16.png)
 
 
-Reinforcement Learning Based UAV Collision Avoidance
+
+
+Project 2: Reinforcement Learning Based UAV Collision Avoidance
 ======
 Clarification: This was modified from a proejct that I was responsible for at CERLAB, and later modified and used for 16833 course project. Some contents below are from the final report of that project, written by Xinming Han and Ziyi Zhang and Ye Jin
 
@@ -39,13 +41,19 @@ The result on Figure 5. shows a general trend of going farther before collision 
 ![p2f2&3](/images/Project_2/fig2&3.png)
 ![p2f5](/images/Project_2/fig5.png)
 
-Internal Combustion Engine Laboratory
+
+
+
+Project 3: Internal Combustion Engine Laboratory
 ======
 Clarification: This is a course project from a control course at Rutgers University.
 
 ![p3](/images/Project_3/Project_3.png)
- 
-Project 4
+
+
+
+
+Project 4: Dynamic System Analysis
 ======
 Clarification: This is a course project from a control course at Rutgers University.
 
@@ -85,7 +93,7 @@ Free body
 Differential equations of two bodies can be obtained from the free body diagrams. ̇̇̈̈̈
 
 
-Reference
+Reference:
 [1] G.F. Franklin, J.D. Powell, and A. Emami-Naeini, Feedback Control of Dynamic Systems, Eighth Edition, Pearson Education, Inc., 2019.
 
 
