@@ -16,6 +16,8 @@ We used gazebo simulator for training. As shown in Figure 1., the drone is first
 <!-- ![p2f2&3](/images/Project_2/fig2&3.png) -->
 <img src="/images/Project_2/fig2&3.png" alt="Example" style="width:80%; height:auto; height:auto; display:block; margin:auto;">
 
-The result on Figure 5. shows a general trend of going farther before collision as the training goes.The training process does not fully converge, but generally DQN has the slowest increasing trend in its performance, its trend is more stable than DDQN and D3QN. DDQN and D3QN training results are very similar. Generally, these algorithms all learnt collision avoidance, though with different performance. We would try parallel training in Simulators like Isaac Sim for faster convergence in the future to speed up the training and finetuning process.  
+The result on Figure 5. shows a general trend of going farther before collision as the training goes.The training process does not fully converge, but generally DQN has the slowest increasing trend in its performance, its trend is more stable than DDQN and D3QN. DDQN and D3QN training results are very similar. Generally, these algorithms all learnt collision avoidance, though with different performance.  
 <img src="/images/Project_2/fig5.png" alt="Example" style="width:60%; height:auto; height:auto; display:block; margin:auto;">
 <!-- ![p2f5](/images/Project_2/fig5.png) -->
+
+We would try parallel training in Simulators like Isaac Sim for faster convergence in the future to speed up the training and finetuning process. That will allow us to do more accurate and objective comparison among different algorithms.
