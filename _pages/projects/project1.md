@@ -1,14 +1,12 @@
 ---
 layout: archive
-title: "Project 1: Visual and Tactile SLAM"
+title: "Visual and Tactile SLAM"
 permalink: /projects/project1/
 author_profile: false
 ---
 
 {% include base_path %}
 
-Project1: Visual and Tactile SLAM 
-======
 Clarification: There are contents from our project final paper, by Hung-Jui Huang, Anoop Bhat, Jiarui Chang, Xinming Han.
 
 <!-- The precise 3D reconstruction of small objects is important since it enables advanced analysis across scientific disciplines. Fields including geology, biology, and archaeology rely on accurate 3D models of items like seeds, artifacts, and microfossils to conduct in-depth research. For example, reconstructing the detailed morphology of a seed facilitates the study of associated plant evolution. Similarly, precise 3D imaging of ancient artifacts allows more comprehensive anthropological and historical investigations of past cultures. Beyond basic science, robotics also stands to benefit from accurate small object reconstruction and pose estimation for complex manipulation tasks like assembly or high-precision insertion. -->
