@@ -8,18 +8,18 @@ author_profile: false
 {% include base_path %}
 
 
-Clarification: This is from my research project. I was responsible for training in Isaac Sim simulator, finetuning the model and reward functions, designing training environments for dynamic obstacle avoidance, and performing experiments. Some contents are from our paper written by Zhefan Xu, Xinming Han, Haoyu Shen, Hanyu Jin, and Kenji Shimada.
+Clarification: This is a C++ course group project. I was responsible for dealing with bouncing when the human character touches an obstacle, and writing the difficulty class that provided other members a difficulty level interface.
 
-Nowadays, in a lot of scenarios, UAVs can be used. For example, disaster response, construction site monitoring, and bridge maintenance can all be made much easier by using UAV. However, UAVs are very easy to break and vulnerable to collision. Therefore, collision avoidance algorithms are very important. In recently years, applying reinforcement learning in robotics shows a great potential, and PPO is a very popular and efficient reinforcement learning algorithm. Our framework aims to enhance UAV safety, making them more reliable for different tasks.
+Nowadays, there are a lot of Triple A games, which require a powerful GPU. And some of them even run slow when you have a RTX 4090 because of poor optimization. However, C++ based programs can run pretty fast, and we thought that fast, convenient, but still funny game can still atttract a lot of players. Those busy students or people do not have a GPU can be our potential customers.
 
-Our navigation framework is described in Fig. 2. The obstacle perception system processes RGB-D images and robot states to generate representations for both static and dynamic obstacles. Obstacle representations are then converted into network input states, along with the definitions of robot actions and training rewards. During training, we employ the PPO algorithm with an actor-critic network structure to train the policy and value networks. For deployment, a safety shield is applied to the RL policy network’s action outputs to ensure safety. We also applied a parallel training pipeline in Isaac Sim to speed up the training.
-<img src="/images/Project_5/fig2.png" alt="Example" style="width:80%; height:auto; display:block; margin:auto;">  
+We used C++ to wrote this program. The goal is to reach a final goal in the map, with as few number of collisions as possible, and try to make the color same as the goal entrance. Scoring system with calculate the score based on these criterias. Player can simply use left and right key to rotate the human. If feet touch wall, human will be bounced to the direction where his head points to. If head touches wall, the reflection angel will be equal to the angle of incidence, like the reflection of light on a flat surface. The visualized game design is explained in the figure below.
+<img src="/images/Project_6/fig1.png" alt="Example" style="width:80%; height:auto; display:block; margin:auto;">  
 
-Results from simulation and physical experiments verify the effectiveness of our approach in achieving safe navigation within dynamic environments. The video below is our physical experiments, which show that our algorithm perform quite well in real deployment.
+The game run without problem on Ubuntu, Windows, and Mac. It is pretty fast, computationally cheap, funny. We have tested different levels of difficulty, and thought the levels design is reasonable, which meant "Easy" is esay, and "Hard" is challenging. Below is a demo of our game.
 
 <video width="640" height="360" controls>
   <source src="/images/Project_6/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-Future work will focus on improving and adapting this framework for deployment across various robotic platforms. Currently, we found that it can be helpful to improve the frequency of this framework. This might be done by reducing the computation or using a more powerful computer.
+Future work will be debugging the game furthurmore, since we still observe some problems when the character hit the wall with a certain angle sometimes.
