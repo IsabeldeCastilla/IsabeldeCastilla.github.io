@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Reinforcement Learning (PPO) Based UAV Collision Avoidance and Navigation"
-permalink: /projects/project3/
+permalink: /projects/project4/
 author_profile: false
 ---
 
