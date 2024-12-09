@@ -16,12 +16,16 @@ Introduction:
 	To study the behavior of a mechanical system, we can model it as a series of signals and responses. For this project we analyzed a mechanical system of two masses undergoing torque while connected to a system of springs and dampers. To study this system we will create a free body diagram, from which we will extrapolate the differential equations which we can then use to analyze the system. We can then perform a laplace transform and obtain a transfer function to describe mathematically how the system reacts to a given input. This will allow us to solve for A1(s), B1(s), C1(s), and D1(s). We will then use our free body diagrams and our results from the previous section to create a signal flow diagram. From this diagram we can use Mason’s Gain formula to find A2(s), B2(s), C2(s).  
 
 Theory:
-	The Mechanical System being studied is shown below, from this we can create our free body diagram. It is important to note for the purposes of our analysis that initial conditions are set to 0, and 1>2:
-  ![p4f1](/images/Project_4/fig1.png)
+The Mechanical System being studied is shown below, from this we can create our free body diagram. It is important to note for the purposes of our analysis that initial conditions are set to 0, and 1>2:  
+<!-- ![p4f1](/images/Project_4/fig1.png) -->
+<img src="/images/Project_4/fig1.png" alt="Example" style="width:100%; height:auto; display:block; margin:auto;">
+
 
 The functions A1(s), B1(s), C1(s), D1(s) can be solved by performing laplace transforms on the differential equations created from the free body diagram and rearranging into the form below:
-A1(s), B1(s), C1(s), D1(s):
-![p4f2](/images/Project_4/fig2.png)
+A1(s), B1(s), C1(s), D1(s):  
+<!-- ![p4f2](/images/Project_4/fig2.png) -->
+<img src="/images/Project_4/fig2.png" alt="Example" style="width:100%; height:auto; display:block; margin:auto;">
+
 
 Additionally, the functions A2(s), B2(s), C2(s), can be solved for by using Mason's Gain formula on our signal flow diagrams, and rearranging into the form shown below:
 
@@ -31,16 +35,19 @@ Mason’s Gain Formula:
 
 
 
-A2(s), B2(s), C2(s):
-![p4f4](/images/Project_4/fig4.png)
+A2(s), B2(s), C2(s):  
+<!-- ![p4f4](/images/Project_4/fig4.png) -->
+<img src="/images/Project_4/fig4.png" alt="Example" style="width:80%; height:auto; display:block; margin:auto;">
 
 
 
 The mathematics and results of this process can be seen in the next section.
 
 Results:
-Free body 
-![p4f5](/images/Project_4/fig5.png)
+Free body  
+<!-- ![p4f5](/images/Project_4/fig5.png) -->
+<img src="/images/Project_4/fig5.png" alt="Example" style="width:80%; height:auto; display:block; margin:auto;">
+
 
 Differential equations of two bodies can be obtained from the free body diagrams.
 
