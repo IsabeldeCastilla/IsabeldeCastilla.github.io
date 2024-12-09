@@ -17,8 +17,6 @@ Our navigation framework is described in Fig. 2. The obstacle perception system 
 
 Results from simulation and physical experiments verify the effectiveness of our approach in achieving safe navigation within dynamic environments. The video below is our physical experiments, which show that our algorithm perform quite well in real deployment.
 
-<iframe width="560" height="315" src="https://youtu.be/fhRxS--Rhkc?si=XKpAqg7QXRvD259P" 
-title="UAV Collision Avoidance Experiments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Please find the video on YouTube]( https://youtu.be/fhRxS--Rhkc?si=Hdfjhr5D_CIJfa5E )
 
 Future work will focus on improving and adapting this framework for deployment across various robotic platforms. Currently, we found that it can be helpful to improve the frequency of this framework. This might be done by reducing the computation or using a more powerful computer.
