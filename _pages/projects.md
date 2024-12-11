@@ -10,17 +10,6 @@ redirect_from:
 {% include base_path %}
 
 
----
-layout: archive
-title: "Projects"
-permalink: /projects/
-author_profile: true
-redirect_from:
-  - /resume
----
-
-{% include base_path %}
-
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
   <div>
     <a href="/projects/project1/">
