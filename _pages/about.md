@@ -6,7 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currenlty a Master's student in Mechanical Engineering department in Carnegie Mellon University. I am conducting research in the UAV team in the Computational Engineering & Robotics Lab (CERLAB). I I obtained my Bachelor's degree in Mechanical Engineering from Rutgers, The State University of New Jersey. I am currently applying for a PhD in the fileds like robotics, robot learning, control, planning, etc. If you provide any research opportunity, please don't hesitate to contact me. Thank you!
+I am currenlty a Master's student in Mechanical Engineering department in Carnegie Mellon University, obtained my Bachelor's degree in Mechanical Engineering from Rutgers, The State University of New Jersey. I am conducting research in the UAV team in the Computational Engineering & Robotics Lab (CERLAB). I have interesting and excellent research experience on robot learning, UAV (unmanned aerial vehicle), and mechanical. I have a great passion in areas of robotics and learning. I am attracted by these topics for the great potential of the complex situations the learning can deal with when it comes to robots. I am currently applying for a PhD in the fileds including robotics, robot learning, control, planning, etc. If you know any potential research opportunity, please don't hesitate to contact me. Thank you!  
+I enjoy Lure fishing for entertainment. The picture below shows me cathing a porgy using a lure called "VIB".  
+<img src="/images/fishing.jpg" alt="Example" style="width:60%; height:auto; height:auto; display:block; margin:auto;">
 
 Research Interest
 ======
