@@ -17,27 +17,27 @@ Introduction:
 
 Theory:
 The Mechanical System being studied is shown below, from this we can create our free body diagram. It is important to note for the purposes of our analysis that initial conditions are set to 0, and 1>2:  
-<!-- ![p4f1](/images/Project_4/fig1.png) -->
-<img src="/images/Project_4/fig1.png" alt="Example" style="width:50%; height:auto; display:block; margin:auto;">
+<!-- ![p6f1](/images/Project_6/fig1.png) -->
+<img src="/images/Project_6/fig1.png" alt="Example" style="width:50%; height:auto; display:block; margin:auto;">
 
 
 The functions A1(s), B1(s), C1(s), D1(s) can be solved by performing laplace transforms on the differential equations created from the free body diagram and rearranging into the form below:
 A1(s), B1(s), C1(s), D1(s):  
-<!-- ![p4f2](/images/Project_4/fig2.png) -->
-<img src="/images/Project_4/fig2.png" alt="Example" style="width:50%; height:auto; display:block; margin:auto;">
+<!-- ![p6f2](/images/Project_6/fig2.png) -->
+<img src="/images/Project_6/fig2.png" alt="Example" style="width:50%; height:auto; display:block; margin:auto;">
 
 
 Additionally, the functions A2(s), B2(s), C2(s), can be solved for by using Mason's Gain formula on our signal flow diagrams, and rearranging into the form shown below:
 
 
 Mason’s Gain Formula:
-![p4f3](/images/Project_4/fig3.png)
+![p6f3](/images/Project_6/fig3.png)
 
 
 
 A2(s), B2(s), C2(s):  
-<!-- ![p4f4](/images/Project_4/fig4.png) -->
-<img src="/images/Project_4/fig4.png" alt="Example" style="width:60%; height:auto; display:block; margin:auto;">
+<!-- ![p6f4](/images/Project_6/fig4.png) -->
+<img src="/images/Project_6/fig4.png" alt="Example" style="width:60%; height:auto; display:block; margin:auto;">
 
 
 
@@ -45,8 +45,8 @@ The mathematics and results of this process can be seen in the next section.
 
 Results:
 Free body  
-<!-- ![p4f5](/images/Project_4/fig5.png) -->
-<img src="/images/Project_4/fig5.png" alt="Example" style="width:60%; height:auto; display:block; margin:auto;">
+<!-- ![p6f5](/images/Project_6/fig5.png) -->
+<img src="/images/Project_6/fig5.png" alt="Example" style="width:60%; height:auto; display:block; margin:auto;">
 
 
 Differential equations of two bodies can be obtained from the free body diagrams.

@@ -17,13 +17,14 @@ We leverage a multimodal approach combining RealSense depth images and GelSight 
 
 ## Results
 As shown from Fig.13 to Fig.16 predicted and ground truth tactile odometry and visual odometry are used separately to do GTSAM pose optimization. In the tactile odometry result, there is some drift from the ground truth, but the rough pattern of going back and forth can still be seen from it. However, the optimization using visual odometry does not perform as well. From the ground truth, there is a clear pattern of going back and forth. However, by looking at the visual odometry optimization result, it is impossible to tell the original movement pattern. As a side note, in our initial implementation, we used Rodrigues vectors to parameterize the orientation in the optimization. We also tried using yaw-pitch-roll angles, but they yielded a similar result.  
-
-## Discussion
-GTSAM optimization does not perform well for visual odometry, and that can only be solved by obtaining better visual odometry. For tactile odometry, there is still drift, since we do not have loop closure constraints in the optimization. If we had a well-performing loop closure detection method, by entering the corresponding odometry between two poses that have a loop closure, we could improve the optimization's performance. We expect that after getting better performance out of the visual and tactile odometry individually and by performing loop closure using both sources of data, we can get better results from the pose graph optimization.  
 <img src="/images/Project_1/fig13.png" alt="Example" style="width:40%; height:auto;">
 <img src="/images/Project_1/fig14.png" alt="Example" style="width:40%; height:auto;">
 <img src="/images/Project_1/fig15.png" alt="Example" style="width:40%; height:auto;">
 <img src="/images/Project_1/fig16.png" alt="Example" style="width:40%; height:auto;">  
+
+## Discussion
+GTSAM optimization does not perform well for visual odometry, and that can only be solved by obtaining better visual odometry. For tactile odometry, there is still drift, since we do not have loop closure constraints in the optimization. If we had a well-performing loop closure detection method, by entering the corresponding odometry between two poses that have a loop closure, we could improve the optimization's performance. We expect that after getting better performance out of the visual and tactile odometry individually and by performing loop closure using both sources of data, we can get better results from the pose graph optimization.  
+
 <!-- ![p1f13](/images/Project_1/fig13.png) -->
 <!-- ![p1f14](/images/Project_1/fig14.png)
 ![p1f15](/images/Project_1/fig15.png)

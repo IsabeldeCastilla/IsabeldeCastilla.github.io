@@ -10,4 +10,4 @@ author_profile: false
 
 Clarification: This is a course project from a control course at Rutgers University.
 
-![p3](/images/Project_3/Project_3.png)
+![p3](/images/Project_5/ICE_poster.png)
